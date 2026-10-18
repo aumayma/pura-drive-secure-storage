@@ -1,0 +1,17 @@
+# 🎥 PURA Drive — Demos
+
+The demo videos are too large to be hosted directly on GitHub, so they are stored on Google Drive.
+
+## 👉 [Watch the demos on Google Drive](https://drive.google.com/drive/folders/16H2UI6i2qR3bF8cFYZ6TEpfcQuKIMOBh?usp=sharing)
+
+## Available demos
+
+| # | Demo | Description |
+|---|---|---|
+| 1 | Login & MFA | Authentication with Keycloak (SSO + TOTP MFA) |
+| 2 | File management & team collaboration | File and folder management, team workspaces, secure sharing |
+| 3 | Malware detection | Upload of an infected file → ClamAV scan status → admin alert |
+| 5 | Admin dashboard | Management of users, files, teams and security events |
+
+
+← [Back to the project README](../README.md)
