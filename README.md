@@ -25,6 +25,8 @@ The platform integrates security controls throughout the entire file lifecycle, 
 
 ## 🎯 Objectives
 
+The main objectives of the project are:
+
 - Implement **Zero Trust security principles**
 - Secure user authentication and authorization
 - Protect stored files using **encryption**
@@ -71,13 +73,10 @@ Security mechanisms include:
 - TOTP-based authentication
 - User and role management
 
-### Multi-Factor Authentication — Demo
+### Multi-Factor Authentication
 
 The authentication workflow combines user login and MFA verification.
 
-https://github.com/user-attachments/assets/REPLACE_WITH_LOGIN_MFA_VIDEO_ID
-
-▶️ [Watch the demo (WebM)](demos/01-login/login-mfa.webm)
 
 ---
 
@@ -146,9 +145,6 @@ The demo shows the complete malware detection workflow:
 
 **Upload infected file → Scan status → Admin alert**
 
-https://github.com/user-attachments/assets/REPLACE_WITH_MALWARE_VIDEO_ID
-
-▶️ [Watch the demo (WebM)](demos/03-malware-detection/malware-detection-demo.webm)
 
 ### Detection Workflow
 
@@ -192,11 +188,8 @@ The interface includes:
 - Role-based collaboration
 - Secure file sharing
 
-### File Management & Collaboration Demo
 
-https://github.com/user-attachments/assets/REPLACE_WITH_FILE_MANAGEMENT_VIDEO_ID
 
-▶️ [Watch the demo (WebM)](demos/02-file-management/file-management-team-collaboration.webm)
 
 ---
 
@@ -212,11 +205,6 @@ Administrators can monitor and manage:
 - Security-related events
 - Platform activity
 
-### Admin Dashboard Demo
-
-https://github.com/user-attachments/assets/REPLACE_WITH_ADMIN_VIDEO_ID
-
-▶️ [Watch the demo (WebM)](demos/05-admin-dashboard/admin-dashboard.webm)
 
 ---
 
@@ -232,11 +220,8 @@ Kibana provides visibility into:
 - Audit logs
 - Application activity
 
-### Kibana Dashboard Demo
+### Kibana Dashboard
 
-https://github.com/user-attachments/assets/REPLACE_WITH_KIBANA_VIDEO_ID
-
-▶️ [Watch the demo (WebM)](demos/06-kibana/kibana-dashboard.webm)
 
 ---
 
@@ -252,11 +237,8 @@ Monitoring includes:
 - Service health
 - Security-related metrics
 
-### Grafana Dashboard Demo
+### Grafana Dashboard
 
-https://github.com/user-attachments/assets/REPLACE_WITH_GRAFANA_VIDEO_ID
-
-▶️ [Watch the demo (WebM)](demos/07-grafana/grafana-dashboard.webm)
 
 ---
 
@@ -276,6 +258,8 @@ The objective is to detect security issues early during development and deployme
 ---
 
 ## 🛡️ Security Principles
+
+PURA Drive follows several security principles:
 
 ### Zero Trust
 
@@ -374,7 +358,7 @@ Application
              ELK
               │
               ▼
-           Kibana
+            Kibana
 ```
 
 ---
